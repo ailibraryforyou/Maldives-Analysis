@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debt Trap: The Structural Fiscal Failure of Maldives</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #ffffff;
+            color: #2d3436;
+            line-height: 1.7;
+        }
+
+        .navbar {
+            background: #ffffff;
+            border-bottom: 1px solid #e9ecef;
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #2d3436;
+        }
+
+        .navbar-date {
+            font-size: 0.85rem;
+            color: #636e72;
+        }
+
+        .hero {
+            background: #ffffff;
+            padding: 120px 40px;
+            border-bottom: 2px solid #2d5016;
+        }
+
+        .hero-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: #2d5016;
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            color: #2d3436;
+        }
+
+        .hero-description {
+            font-size: 1.25rem;
+            color: #636e72;
+            line-height: 1.6;
+            margin-bottom: 50px;
+            max-width: 850px;
+        }
+
+        .hero-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 50px;
+            font-size: 0.9rem;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .meta-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            color: #b2bec3;
+        }
+
+        .meta-value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3436;
+        }
+
+        .main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 80px 40px;
+            background: #ffffff;
+        }
+
+        .section {
+            margin-bottom: 100px;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 40px;
+            color: #2d3436;
+            line-height: 1.15;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 40px 0 25px 0;
+            color: #2d3436;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #2d3436;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        strong {
+            font-weight: 700;
+            color: #2d3436;
+        }
+
+        em {
+            font-style: italic;
+            color: #636e72;
+        }
+
+        .highlight-box {
+            border-left: 4px solid #2d5016;
+            padding-left: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 30px 0;
+        }
+
+        .theory-box {
+            background: #ffffff;
+            border: 2px solid #2d5016;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 0;
+        }
+
+        .theory-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #2d5016;
+            margin-bottom: 12px;
+        }
+
+        .stat-box {
+            background: #ffffff;
+            padding: 60px 40px;
+            margin: 60px 0;
+            border: 2px solid #2d5016;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #2d5016;
+            line-height: 1;
+        }
+
+        .stat-text {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #2d3436;
+        }
+
+        .stat-description {
+            font-size: 1rem;
+            color: #636e72;
+            line-height: 1.7;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 50px 0;
+            border: 1px solid #dfe6e9;
+        }
+
+        thead {
+            background: #2d5016;
+            color: #ffffff;
+        }
+
+        th {
+            padding: 20px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        td {
+            padding: 18px 20px;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 0.95rem;
+            color: #2d3436;
+        }
+
+        tbody tr:hover {
+            background: #ffffff;
+        }
+
+        .source {
+            font-size: 0.85rem;
+            color: #b2bec3;
+            font-style: italic;
+            margin-top: 8px;
+        }
+
+        .divider {
+            height: 1px;
+            background: #e9ecef;
+            margin: 80px 0;
+        }
+
+        .footer {
+            background: #ffffff;
+            border-top: 1px solid #e9ecef;
+            padding: 80px 40px;
+        }
+
+        .footer-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .footer-section {
+            margin-bottom: 60px;
+        }
+
+        .footer-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .footer-section h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #2d3436;
+        }
+
+        .footer-section p {
+            color: #636e72;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .footer-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-list li {
+            margin-bottom: 12px;
+            color: #636e72;
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        .footer-meta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #e9ecef;
+            margin-top: 30px;
+            font-size: 0.85rem;
+        }
+
+        .footer-meta-item {
+            color: #b2bec3;
+        }
+
+        .footer-meta-item strong {
+            color: #2d3436;
+        }
+
+        .disclosure {
+            background: #ffffff;
+            padding: 20px;
+            border-left: 3px solid #2d5016;
+            font-size: 0.9rem;
+            color: #636e72;
+            margin: 20px 0;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 25px;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .main {
+                padding: 50px 25px;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .stat-box {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            th, td {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="navbar-title">Debt Trap: The Structural Fiscal Failure of Maldives</div>
+            <div class="navbar-date">February 2026</div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-tag">Analysis</div>
+            <h1>Debt Trap</h1>
+            <p class="hero-description">The Maldives government is trapped in a self-perpetuating fiscal spiral: spending addiction drives deficits, deficits drive debt, debt service costs accelerate, which forces more borrowing. Donors have abandoned hope. IMF intervention is inevitable.</p>
+            <div class="hero-meta">
+                <div class="meta-item">
+                    <span class="meta-label">Published</span>
+                    <span class="meta-value">February 2026</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Data Period</span>
+                    <span class="meta-value">2018–2025 (2012+ context)</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Sources</span>
+                    <span class="meta-value">MMA, IMF, Moody's</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="highlight-box">
+            <p><strong>The Crisis Is Structural:</strong> From 2012 to 2025, the Maldives government has run deficits in every single year—14 consecutive years without achieving fiscal balance. This is not temporary. This is not cyclical. This is structural fiscal failure embedded in how the political economy operates.</p>
+        </div>
+
+        <div class="section">
+            <h2>The Spending Addiction</h2>
+
+            <p>The Maldives government exhibits a pattern that transcends individual administrations, political parties, or economic conditions. Regardless of whether revenues are growing or shrinking, the government increases spending. This is not accidental policy. This is structural dysfunction rooted in how political incentives work.</p>
+
+            <h3>The Pattern: Spending Always Grows</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Expenditure (MVR B)</th>
+                        <th>Year-over-Year Change</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2018</td>
+                        <td>26.5</td>
+                        <td>—</td>
+                        <td>Baseline</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>29.0</td>
+                        <td>+9.3%</td>
+                        <td>↑ Increased</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>28.8</td>
+                        <td>-0.8%</td>
+                        <td>→ Flat (COVID)</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>32.9</td>
+                        <td>+14.3%</td>
+                        <td>↑ Increased</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>40.1</td>
+                        <td>+21.9%</td>
+                        <td>↑ Increased</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>44.9</td>
+                        <td>+12.1%</td>
+                        <td>↑ Increased</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>45.9</td>
+                        <td>+2.2%</td>
+                        <td>↑ Increased</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>44.3</td>
+                        <td>-3.5%</td>
+                        <td>↓ Decreased (Forced)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="source">Source: MMA – Government Financial Statistics</p>
+
+            <p>From 2018 to 2024, spending increased every single year. Only in 2025—when financing becomes impossible—does spending decline. This is not fiscal discipline. This is financial desperation.</p>
+
+            <h3>The Political Economy Explanation</h3>
+
+            <div class="theory-box">
+                <div class="theory-title">Public Choice Theory & Electoral Cycles</div>
+                <p>Public choice theory (Buchanan, Tullock) explains why governments systematically overspend: voters reward spending and punish cuts. A government that cuts spending loses re-election. A government that spends more wins votes. The incentive structure is asymmetric: spending is popular, cuts are unpopular. Result: structural overspending becomes inevitable. Every rational government, facing electoral pressure, chooses spending over balance.</p>
+            </div>
+
+            <p>The Maldives exemplifies this perfectly. From 2012-2025, governments from multiple parties all made the same choice: increase spending. Not because they were incompetent, but because the electoral reward structure incentivizes overspending. The system itself produces deficits. Fiscal discipline is politically suicidal in democracies with short time horizons.</p>
+
+            <h3>A 14-Year Pattern</h3>
+
+            <p>Looking back at 2012-2025 data provides crucial context: this spending addiction is generational, not recent. Spending has grown every year across multiple governments, multiple economic conditions, and multiple political parties. This is not a failure of individual leaders. This is a failure of the system.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>The Interest Time Bomb</h2>
+
+            <p>As deficits accumulate, debt grows. As debt grows, interest payments accelerate. Interest payments then consume an increasing share of government revenue, forcing more borrowing to cover both current spending and interest costs. This is a debt spiral—a self-perpetuating mechanism that becomes harder to escape the longer it persists.</p>
+
+            <h3>Interest Costs Exploding</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Interest Payments (MVR B)</th>
+                        <th>% of Total Revenue</th>
+                        <th>Growth Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2018</td>
+                        <td>1.44</td>
+                        <td>6.7%</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>1.54</td>
+                        <td>7.0%</td>
+                        <td>+7.0%</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>1.60</td>
+                        <td>10.5%</td>
+                        <td>+3.9%</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>2.10</td>
+                        <td>9.9%</td>
+                        <td>+31.3%</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>3.45</td>
+                        <td>11.9%</td>
+                        <td>+64.3%</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>4.20</td>
+                        <td>12.3%</td>
+                        <td>+21.7%</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>4.67</td>
+                        <td>13.3%</td>
+                        <td>+11.2%</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>4.86</td>
+                        <td>12.8%</td>
+                        <td>+4.1%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="source">Source: MMA – Government Financial Statistics</p>
+
+            <div class="stat-box">
+                <div>
+                    <div class="stat-number">+237%</div>
+                </div>
+                <div class="stat-text">
+                    <div class="stat-label">Interest Payment Growth (2018–2025)</div>
+                    <div class="stat-description">Interest costs have grown from 1.44B MVR to 4.86B MVR in just 7 years. Interest now consumes 12.8% of all government revenue—money spent on past debts rather than current services.</div>
+                </div>
+            </div>
+
+            <h3>The Debt Spiral Mechanism</h3>
+
+            <div class="theory-box">
+                <div class="theory-title">Debt Spiral / Fiscal Dominance Theory</div>
+                <p>When debt service costs grow faster than revenue, governments enter a debt spiral (also called fiscal dominance). Each year, more revenue is diverted to pay interest. Less is available for services or investment. This forces either (a) more borrowing to cover the gap, (b) spending cuts on services, or (c) seeking IMF support. The spiral is mathematically inexorable once growth cannot keep pace with debt service growth. The Maldives entered this spiral around 2021-2022 and cannot escape without external intervention.</p>
+            </div>
+
+            <p>The mathematics are clear: interest costs grew 237% while revenue grew only 63% (2018-2025). Interest is now accelerating faster than the economy can generate revenue. This means the gap between current spending and available revenue will widen each year unless debt stops growing or interest rates decline. Neither is likely.</p>
+
+            <h3>Historical Context: The 12-Year Pattern</h3>
+
+            <p>Looking back to 2012, the pattern is even more alarming. Interest payments have grown from 1.11B MVR (2012) to 4.86B MVR (2025)—a 339% increase over 13 years. This is the inevitable consequence of 13 consecutive years of deficits. The spiral started slowly but is now accelerating. By 2026-2027, interest costs will consume 15%+ of revenue unless dramatic consolidation occurs.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>The Donor Abandonment</h2>
+
+            <p>International donors—bilateral and multilateral—evaluate countries on ability and willingness to reform. When governments demonstrate structural inability to balance budgets despite growth and favorable conditions, donors lose confidence. The gradual withdrawal of concessional financing is a signal of lost credibility.</p>
+
+            <h3>Foreign Grants Collapsing</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Foreign Grants (MVR B)</th>
+                        <th>% of Total Revenue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2018</td>
+                        <td>0.82</td>
+                        <td>3.8%</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>1.15</td>
+                        <td>5.0%</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>0.96</td>
+                        <td>6.3%</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>1.03</td>
+                        <td>4.8%</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>1.04</td>
+                        <td>3.6%</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>1.01</td>
+                        <td>3.0%</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>0.65</td>
+                        <td>1.9%</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>0.40</td>
+                        <td>1.1%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="source">Source: MMA – Government Financial Statistics</p>
+
+            <p>Foreign grants have declined from 1.15B MVR (2019) to 0.40B MVR (2025)—a 65% collapse in just 6 years. This is not a temporary fluctuation. This is donor countries quietly withdrawing support.</p>
+
+            <h3>What This Signals</h3>
+
+            <div class="theory-box">
+                <div class="theory-title">Sovereign Credibility & Donor Coordination</div>
+                <p>When multiple bilateral and multilateral donors simultaneously reduce concessional aid, it signals coordinated loss of confidence in government reform capacity. Donors share information through IMF consultations and other channels. When they observe persistent deficits despite growth, tourism expansion, and multiple reform announcements, they conclude reform is performative, not genuine. Coordination follows: reduce concessional aid, shift to IMF programs, prepare for restructuring. This is the path Maldives is on.</p>
+            </div>
+
+            <p>The timing matters: grants were declining before COVID, persisted through COVID, and accelerated post-COVID. This is not cyclical. This is structural assessment by donors that the Maldives cannot reform itself. The withdrawal of concessional financing is the market's verdict on government credibility.</p>
+
+            <h3>Long-Term Pattern (2012-2025)</h3>
+
+            <p>Over the 14-year period, grants have declined from 0.82B MVR (2012) to 0.40B MVR (2025). While some variation occurred, the overall trend is clear: donors are exiting. This accelerated dramatically in 2024-2025 as it became clear no reform was occurring despite repeated commitments.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>The Convergence: Three Crises at Once</h2>
+
+            <p>The Maldives faces not one crisis but three simultaneous crises that reinforce each other:</p>
+
+            <p><strong>Spending addiction</strong> drives deficits. Deficits drive debt accumulation. Debt accumulation accelerates interest costs. Interest costs are now consuming an accelerating share of revenue. Meanwhile, donors are withdrawing support, recognizing that fundamental reform is impossible given political economy constraints.</p>
+
+            <p>These three mechanisms interact: spending addiction → deficits → debt → interest spiral → less revenue for current services → political pressure to spend more → more deficits. Meanwhile, withdrawal of donor support eliminates the safety net that made the previous 14 years somewhat tolerable.</p>
+
+            <h3>The Timeline</h3>
+
+            <p>2025 is the inflection point. In 2025, the government was forced to cut expenditure for the first time in seven years—not from policy choice, but from financing desperation. This signals the system is no longer sustainable. External debt service obligations of $600 million (2025) and $1 billion (2026) loom. Without major financing, default is probable.</p>
+
+            <p>By 2026-2027, either (a) the government implements severe fiscal consolidation voluntarily, or (b) the IMF program is forced by crisis. The former is politically unlikely. The latter is mathematically inevitable.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Conclusion</h2>
+
+            <p>The Maldives fiscal crisis is not new, not temporary, and not solvable through growth alone. It is structural, rooted in political economy incentives that reward spending and punish consolidation. It has persisted for 14 consecutive years across multiple governments and political parties. It is accelerating through a self-perpetuating debt spiral where rising interest costs consume more revenue each year, making consolidation harder, not easier.</p>
+
+            <p>International donors have recognized this structural problem and are withdrawing support—a quiet but definitive market verdict on reform feasibility. The government's only rational remaining options are (1) radical voluntary consolidation in 2025-2026, or (2) IMF program negotiation in 2026-2027. The probability of (1) is low given political constraints. The probability of (2) is very high.</p>
+
+            <p>The debt trap is closed. The only remaining question is whether the Maldives government recognizes this and seeks IMF support willingly, or waits until crisis forces it. The former allows gradual adjustment. The latter brings crisis adjustment. Either way, significant fiscal consolidation is now inevitable.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Economic Theories Applied</h3>
+                <p>This analysis draws on public choice theory (Buchanan, Tullock) to explain spending addiction, debt spiral/fiscal dominance theory to explain interest acceleration, and sovereign credibility theory to explain donor withdrawal. All three are mainstream economic frameworks that explain observed behavior in fiscally distressed countries.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Data Transparency</h3>
+                <p>Main analysis uses 2018–2025 verified data from MMA. Historical context references 2012–2025 data to show 14-year pattern. All figures are government statistics. IMF and Moody's statements are from official publications.</p>
+                <div class="disclosure">
+                    <strong>Methodology:</strong> Data extracted from MMA query database. 2018-2025 main focus shows recent acceleration. 2012-2025 context shows this is structural, not recent. Economic theories apply mainstream frameworks to explain observed patterns.
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Primary Sources</h3>
+                <ul class="footer-list">
+                    <li>Maldives Monetary Authority. Government Financial Statistics (2012–2025)</li>
+                    <li>International Monetary Fund. Article IV Consultation Reports (2024–2025)</li>
+                    <li>Moody's Ratings. Maldives Sovereign Credit Analysis (September 2024)</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <div class="footer-meta">
+                    <div class="footer-meta-item"><strong>Published:</strong> February 2026</div>
+                    <div class="footer-meta-item"><strong>Data Period:</strong> 2018–2025 (2012+ context)</div>
+                    <div class="footer-meta-item"><strong>Type:</strong> Economic Analysis</div>
+                    <div class="footer-meta-item"><strong>License:</strong> CC BY 4.0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
