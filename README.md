@@ -11,27 +11,14 @@ Data-driven analysis of the Maldivian Economy using publicly available data sour
 ### 1. **Debt Trap: The Structural Fiscal Failure of Maldives**
 [Read Article →](Debt Trap - Fiscal Failure.html)
 
-**Topic:** Fiscal Crisis & Debt  
-**Data Period:** 2018–2025 (with 2012–2025 historical context)
-
-**Key Findings:**
-- Government has run deficits in **14 consecutive years** (2012–2025) without achieving fiscal balance
-- Spending increased in **10 of 13 years** (2012–2025) regardless of government or economic conditions
-- Interest costs exploded **+237%** (2018–2025), now consuming 12.8% of all government revenue
-- Foreign donor grants collapsed **65%** (2019–2025) as donors lose confidence
-- Cumulative deficit over 14 years: **-93.3 billion MVR** (matches debt growth exactly)
-
-**Theories Applied:**
-- **Public Choice Theory** - Electoral incentives reward government spending; fiscal discipline is politically suicidal
-- **Debt Spiral / Fiscal Dominance** - Rising interest costs consume more revenue, forcing more borrowing
-- **Sovereign Credibility** - Donors withdraw support when reform appears structurally impossible
+14 consecutive years (2012–2025) of budget deficits (based on when data is available). Government spending increased every year regardless of revenue. Interest payments tripled. Donor grants collapsed. Why? Electoral incentives reward spending. Fiscal discipline is politically impossible.
 
 **Key Insight:** This is not policy failure by individuals. This is structural failure embedded in how political systems operate. Every government, regardless of party or ideology, increases spending because voters reward spending. The system is designed to produce deficits.
 
 ---
 
 ### 2. **The Tourism Plantation Economy: Resource Curse in Paradise**
-[Read Article →](Tourism Plantation Economy.html)
+[Read →](Tourism Plantation Economy.html)
 
 **Topic:** Tourism Value Capture & Resource Economics  
 Tourism grew 183% over 15 years (2010–2025) but government revenue stagnated. Why? 75% of tourist bednights happen in 70% foreign-owned resorts. Foreigners extract profits. Government captures ~15% of tourism value. Classic resource curse.
@@ -41,19 +28,24 @@ Tourism grew 183% over 15 years (2010–2025) but government revenue stagnated. 
 [Read →](Debt Service Crisis.html)
 
 The Maldives faced a liquidity crisis in early 2025 (negative usable reserves). Government averted acute crisis by borrowing ~$2 billion. Spending cuts were minimal (3.5%). External debt increased to ~$6.3–6.4 billion. Crisis delayed to 2027, not resolved.
-
 ---
 
-## The Complete Picture
+### **4. Education Is An Electoral Promise We Fall For**
+[Read →](Government Student Loan Trap.html)
 
-| Article | Problem | Why It Matters |
-|---------|---------|----------------|
-| **Debt Trap** | Structural deficits | System incentivizes spending |
-| **Tourism Plantation** | Growth doesn't help | Foreigners keep profits |
-| **Debt Service Cliff** | 2025 solution was debt | Borrowed, didn't reform |
+Government loans for education in MVR. All expenses abroad in foreign currency. Currency conversion losses at every stage. Jobs don't exist for graduates. Salary doesn't cover loan repayment. Young educated Maldivians face impossible choice: stay and starve, or leave and be blamed for brain drain.
+---
 
-**Together:** Maldives faces structural crisis with no voluntary escape. IMF program probable by 2027.
+## Summary
 
+Each article explains a piece of the system:
+
+- **Article 1:** Structural deficits force budget cuts
+- **Article 2:** Single-resource economy provides no job diversity
+- **Article 3:** Government borrows instead of investing in growth
+- **Article 4:** Education investment lost due to impossible economics
+- 
+**Together:** They explain why Maldives cannot retain educated citizens, why fiscal crisis continues, why system perpetuates itself.
 ---
 
 
