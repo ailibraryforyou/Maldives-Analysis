@@ -11,7 +11,7 @@ Some articles can include personal narratives and arguments.
 ## Articles
 
 ### 1. **Debt Trap: The Structural Fiscal Failure of Maldives**
-[Read Article →](Debt Trap - Fiscal Failure.html)
+[Read →](Debt Trap - Fiscal Failure.html)
 
 **Topic:** Fiscal Crisis & Debt  
 **Data Period:** 2018–2025 (with 2012–2025 historical context)
@@ -33,7 +33,7 @@ Some articles can include personal narratives and arguments.
 ---
 
 ### 2. **The Tourism Plantation Economy: Resource Curse in Paradise**
-[Read Article →](Tourism Plantation Economy.html)
+[Read →](Tourism Plantation Economy.html)
 
 **Topic:** Tourism Value Capture & Resource Economics  
 Tourism grew 183% over 15 years (2010–2025) but government revenue stagnated. Why? 75% of tourist bednights happen in 70% foreign-owned resorts. Foreigners extract profits. Government captures ~15% of tourism value. Classic resource curse.
